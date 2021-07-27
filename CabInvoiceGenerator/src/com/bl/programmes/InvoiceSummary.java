@@ -10,11 +10,7 @@ public class InvoiceSummary {
     private final double totalFare;
     private final double avgFare;
 
-    /**
-     * this is constructor of the class InvoiceSummary to initialize the parameters.
-     * @param numOfRides;
-     * @param totalFare;
-     */
+
     public InvoiceSummary(int numOfRides, double totalFare) {
         this.numOfRides = numOfRides;
         this.totalFare = totalFare;
